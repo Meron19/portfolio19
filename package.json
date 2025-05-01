@@ -11,7 +11,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
-    "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-simple-typewriter": "^5.0.1",
     "web-vitals": "^2.1.4"
@@ -47,6 +46,10 @@
     "chalk": "^5.4.1",
     "gh-pages": "^6.3.0",
     "react-dev-utils": "^12.0.1",
-    "tailwindcss": "^3.4.4"
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.4.4",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-manifest-plugin": "^5.0.1"
   }
 }
