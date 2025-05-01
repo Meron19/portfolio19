@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://meron19.github.io/portfolio19",
+  "homepage": "https://Meron19.github.io/portfolio19",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@testing-library/jest-dom": "^5.17.0",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
