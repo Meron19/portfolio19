@@ -2,6 +2,7 @@ import React from 'react'
 // change these imports of images to images of actual projects
 import MyBookList from '../assets/assets/MyBookList.png'
 import Saigon from '../assets/assets/Saigon.png'
+import Groupify from '../assets/assets/Groupify.png'
 
 export const Projects = () => {
     return (
@@ -53,6 +54,27 @@ export const Projects = () => {
                             <h1 className='text-center text-base'>Group project focused creating a mentor-mentee matching web app for a nonprofit SaigonChildren.</h1>
                             <div className='pt-8 text-center'>
                                 <a href="https://github.com/lahrry/MentorMentee_App">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Grid Item(duplicate to add more projects) */}
+                    {/* Change URL to actual image of project */}
+                    <div
+                        style={{ backgroundImage: `url(${Groupify})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider pb-3'>
+                                Groupify
+                            </span>
+                            <h1 className='text-center text-base'>Group project focused on creating a web application dedicated to assisting students find study groups through
+                            matching based on personal preferences and course work</h1>
+                            <div className='pt-8 text-center'>
+                                <a href="https://github.com/jel084/groupify">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
